@@ -16,14 +16,27 @@
   <widget class="QLabel" name="mainLabel">
    <property name="geometry">
     <rect>
-     <x>130</x>
-     <y>80</y>
-     <width>67</width>
+     <x>10</x>
+     <y>10</y>
+     <width>90</width>
      <height>17</height>
     </rect>
    </property>
    <property name="text">
-    <string>TextLabel</string>
+    <string>mainLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="timerLabel">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>90</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>timerLabel</string>
    </property>
   </widget>
  </widget>
