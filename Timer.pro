@@ -31,4 +31,6 @@ HEADERS  += timer.h
 FORMS    += timer.ui
 
 DISTFILES += \
-    config.ini
+    config.ini \
+    src \
+    README.md
