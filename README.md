@@ -34,8 +34,8 @@ TIMER_DEFAULT_VALUE=60
 # Alarm breakpoint value in seconds (default is -1 - which is none)
 TIMER_ALARM_VALUE=10
 ```
-If you need several time options then you can create links for program as follows:
+If you need several time options then you can create links for application as follows:
 ```bash
 {path_to_application}/Timer [default_value] [alarm_value]
 ```
-If two arguments are stated then application use both of them. If only one argument is stated then application uses alarm breakpoint from configuration file.
+If two arguments are stated then application uses both of them. If only one argument is stated then application uses alarm breakpoint from configuration file.
