@@ -84,10 +84,10 @@ Timer::Timer(QWidget *parent) :
             alarmValue = arguments.at(2).toInt();
         }
     }
-    if(!counter) {
+    if(counter < 0) {
         counter = settings.value("TIMER_DEFAULT_VALUE", 60).toInt();
     }
-    if(!alarmValue) {
+    if(alarmValue < 0) {
         alarmValue = settings.value("TIMER_ALARM_VALUE", -1).toInt();
     }
     setTimer();
@@ -112,7 +112,7 @@ void Timer::timeout()
 void Timer::setTimer()
 {
     QTime time(0, (int)counter / 60, counter % 60);
-    ui->timerLabel->setText(time.toString("m:ss"));
+    ui->timerLabel->setText(time.toString("mm:ss"));
     if(counter == 0) {
         music->stop();
         timer->stop();

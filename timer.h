@@ -32,8 +32,8 @@ private:
     QMediaPlayer *music = new QMediaPlayer;
     QMediaPlayer *alarm = new QMediaPlayer;
     QMediaPlayer *final = new QMediaPlayer;
-    int counter;
-    int alarmValue;
+    int counter = -1;
+    int alarmValue = -1;
     QString alarmColor;
 };
 
