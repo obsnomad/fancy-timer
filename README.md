@@ -1,11 +1,11 @@
 # Fancy timer
-This is the timer application built on Qt which displays fullscreen timer with background and music. Can be used on games and other stuff.
+This is the timer application built on Qt which displays fullscreen timer with background image and music. Can be used on games and other stuff.
 
 ## Functionality
 When started the application show timer clock counting down to zero. Music plays during counting (if configured) and stops at zero. Alarm beeping sound appears on the alarm breakpoint (if configured) and another "final" sound plays at zero (if configured). To exit the application hit Alt+F4 or ESC.
 
 ## Configuration
-All configuration values can be set in config.ini file of application root. Here are the example of the file:
+All configuration values can be set in config.ini file of application root. Here is the example of the file:
 ```ini
 # Background image (relative or absolute path)
 BACKGROUND_IMAGE=
